@@ -6,43 +6,48 @@
     <title>Mohamed Adel Abd-Elnabi CV</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
+            background-image: url('https://c4.wallpaperflare.com/wallpaper/44/475/694/airplane-flight-sunset-wallpaper-preview.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            line-height: 1.6;
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            margin: 0;
+            height: 100%;
         }
         .container {
             max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 50px auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            color: #333;
         }
-        h1 {
-            font-size: 2em;
-            margin-bottom: 10px;
+        h1, h2 {
             color: #0056b3;
+            text-align: center;
         }
         h2 {
+            margin-top: 30px;
             font-size: 1.5em;
-            margin-top: 20px;
-            color: #0056b3;
         }
-        p {
-            margin: 0;
-            padding: 5px 0;
+        p, ul {
+            margin: 10px 0;
         }
         ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 10px;
+            list-style-type: square;
+            padding-left: 20px;
         }
         .contact-info {
-            margin-bottom: 20px;
+            text-align: center;
+            margin-bottom: 30px;
         }
         .contact-info p {
             margin: 5px 0;
@@ -54,9 +59,6 @@
         a:hover {
             text-decoration: underline;
         }
-        .section {
-            margin-bottom: 20px;
-        }
         .skills, .languages {
             display: flex;
             justify-content: space-between;
@@ -64,86 +66,91 @@
         .skills div, .languages div {
             width: 45%;
         }
+        .section {
+            margin-bottom: 30px;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Mohamed Adel Abd-Elnabi</h1>
-        <div class="contact-info">
-            <p><strong>Nationality:</strong> Egyptian</p>
-            <p><strong>Phone:</strong> +20 1553443534</p>
-            <p><strong>Email:</strong> <a href="mailto:moadelkady10@gmail.com">moadelkady10@gmail.com</a></p>
-        </div>
+    <div class="overlay">
+        <div class="container">
+            <h1>Mohamed Adel Abd-Elnabi</h1>
+            <div class="contact-info">
+                <p><strong>Nationality:</strong> Egyptian</p>
+                <p><strong>Phone:</strong> +20 1553443534</p>
+                <p><strong>Email:</strong> <a href="mailto:moadelkady10@gmail.com">moadelkady10@gmail.com</a></p>
+            </div>
 
-        <div class="section">
-            <h2>Summary</h2>
-            <p>A highly motivated Aerospace (Mechanical) Engineering graduate with a strong academic background and practical experience in aeronautical and mechanical engineering...</p>
-        </div>
+            <div class="section">
+                <h2>Summary</h2>
+                <p>A highly motivated Aerospace (Mechanical) Engineering graduate with a strong academic background and practical experience in aeronautical and mechanical engineering...</p>
+            </div>
 
-        <div class="section">
-            <h2>Education</h2>
-            <p><strong>Bachelor Degree in Aerospace (Mechanical) Engineering</strong><br>Zagazig University, Egypt (2019-2024)</p>
-            <p><strong>CGPA:</strong> 3.46/4 (B+ or High Very Good)</p>
-            <p>Selected to represent Zagazig University in a scholarship for outstanding students at York University, Canada.</p>
-            <p><strong>Graduation Project:</strong> Aircraft Design using Reverse Engineering (Grade: A+)</p>
-        </div>
+            <div class="section">
+                <h2>Education</h2>
+                <p><strong>Bachelor Degree in Aerospace (Mechanical) Engineering</strong><br>Zagazig University, Egypt (2019-2024)</p>
+                <p><strong>CGPA:</strong> 3.46/4 (B+ or High Very Good)</p>
+                <p>Selected to represent Zagazig University in a scholarship for outstanding students at York University, Canada.</p>
+                <p><strong>Graduation Project:</strong> Aircraft Design using Reverse Engineering (Grade: A+)</p>
+            </div>
 
-        <div class="section">
-            <h2>Licenses & Certifications</h2>
-            <ul>
-                <li>Basic Indoctrination Undergraduate Aeronautical/Mechanical Engineers (Phase I) - EgyptAir Training Academy (July 2023 - September 2023)</li>
-                <li>Basic Indoctrination Undergraduate Aeronautical/Mechanical Engineers (Phase II) - EgyptAir Training Academy (July 2024 - August 2024)</li>
-                <li>Registered for Practical Training Necessary to obtain the License Without Type Rating (LWTR)</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Training</h2>
-            <ul>
-                <li>Robot Arm Camp - ROBOTECH EG Company (July 2021)</li>
-                <li>Aircraft Factory Training - Arab Organization for Industrialization, Helwan, Egypt (September 2021)</li>
-                <li>Engine Factory Training - Arab Organization for Industrialization, Helwan, Egypt (September 2021)</li>
-                <li>Space Engineering Workshop - York University, Canada (July 2022 - August 2022)</li>
-                <li>Airframe and Engine Maintenance Training - Egypt Air (February 2023)</li>
-            </ul>
-        </div>
-
-        <div class="section skills">
-            <div>
-                <h2>Software Skills</h2>
+            <div class="section">
+                <h2>Licenses & Certifications</h2>
                 <ul>
-                    <li>SOLIDWORKS</li>
-                    <li>ANSYS</li>
-                    <li>Microsoft Office: Word, Excel, PowerPoint</li>
+                    <li>Basic Indoctrination Undergraduate Aeronautical/Mechanical Engineers (Phase I) - EgyptAir Training Academy (July 2023 - September 2023)</li>
+                    <li>Basic Indoctrination Undergraduate Aeronautical/Mechanical Engineers (Phase II) - EgyptAir Training Academy (July 2024 - August 2024)</li>
+                    <li>Registered for Practical Training Necessary to obtain the License Without Type Rating (LWTR)</li>
                 </ul>
             </div>
-            <div>
-                <h2>Soft Skills</h2>
+
+            <div class="section">
+                <h2>Training</h2>
                 <ul>
-                    <li>Teamwork</li>
-                    <li>Time Management</li>
+                    <li>Robot Arm Camp - ROBOTECH EG Company (July 2021)</li>
+                    <li>Aircraft Factory Training - Arab Organization for Industrialization, Helwan, Egypt (September 2021)</li>
+                    <li>Engine Factory Training - Arab Organization for Industrialization, Helwan, Egypt (September 2021)</li>
+                    <li>Space Engineering Workshop - York University, Canada (July 2022 - August 2022)</li>
+                    <li>Airframe and Engine Maintenance Training - Egypt Air (February 2023)</li>
                 </ul>
             </div>
-        </div>
 
-        <div class="section languages">
-            <div>
-                <h2>Languages</h2>
-                <p><strong>Arabic:</strong> Native</p>
-                <p><strong>English:</strong></p>
-                <ul>
-                    <li>Reading: ★★★★☆</li>
-                    <li>Writing: ★★★★☆</li>
-                    <li>Listening: ★★★☆☆</li>
-                    <li>Speaking: ★★★☆☆</li>
-                </ul>
+            <div class="section skills">
+                <div>
+                    <h2>Software Skills</h2>
+                    <ul>
+                        <li>SOLIDWORKS</li>
+                        <li>ANSYS</li>
+                        <li>Microsoft Office: Word, Excel, PowerPoint</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Soft Skills</h2>
+                    <ul>
+                        <li>Teamwork</li>
+                        <li>Time Management</li>
+                    </ul>
+                </div>
             </div>
-        </div>
 
-        <div class="section">
-            <h2>Competitions</h2>
-            <p><strong>AeroX Team Member:</strong> UDC (Cairo University)</p>
-            <p>The competition involved designing an UAV for delivering medical supplies. I contributed by designing the aircraft wing and testing stability and control using XFLR5. Additionally, I designed the door mechanism for releasing the medical supplies using SolidWorks.</p>
+            <div class="section languages">
+                <div>
+                    <h2>Languages</h2>
+                    <p><strong>Arabic:</strong> Native</p>
+                    <p><strong>English:</strong></p>
+                    <ul>
+                        <li>Reading: ★★★★☆</li>
+                        <li>Writing: ★★★★☆</li>
+                        <li>Listening: ★★★☆☆</li>
+                        <li>Speaking: ★★★☆☆</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Competitions</h2>
+                <p><strong>AeroX Team Member:</strong> UDC (Cairo University)</p>
+                <p>The competition involved designing an UAV for delivering medical supplies. I contributed by designing the aircraft wing and testing stability and control using XFLR5. Additionally, I designed the door mechanism for releasing the medical supplies using SolidWorks.</p>
+            </div>
         </div>
     </div>
 </body>
