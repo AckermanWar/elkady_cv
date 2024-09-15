@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +8,61 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
-            margin: auto;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2, h3 {
-            color: #333;
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #0056b3;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 20px;
+            color: #0056b3;
+        }
+        p {
+            margin: 0;
+            padding: 5px 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
         }
         .contact-info {
             margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .skills, .languages {
+            display: flex;
+            justify-content: space-between;
+        }
+        .skills div, .languages div {
+            width: 45%;
         }
     </style>
 </head>
@@ -25,44 +70,81 @@
     <div class="container">
         <h1>Mohamed Adel Abd-Elnabi</h1>
         <div class="contact-info">
-            <p>Nationality: Egyptian</p>
-            <p>Phone: +20 1553443534</p>
-            <p>Email: <a href="mailto:moadelkady10@gmail.com">moadelkady10@gmail.com</a></p>
+            <p><strong>Nationality:</strong> Egyptian</p>
+            <p><strong>Phone:</strong> +20 1553443534</p>
+            <p><strong>Email:</strong> <a href="mailto:moadelkady10@gmail.com">moadelkady10@gmail.com</a></p>
         </div>
 
-        <h2>Summary</h2>
-        <p>A highly motivated Aerospace (Mechanical) Engineering graduate...</p>
+        <div class="section">
+            <h2>Summary</h2>
+            <p>A highly motivated Aerospace (Mechanical) Engineering graduate with a strong academic background and practical experience in aeronautical and mechanical engineering...</p>
+        </div>
 
-        <h2>Education</h2>
-        <p><strong>Bachelor Degree in Aerospace (Mechanical) Engineering</strong><br>Zagazig University, Egypt (2019-2024)</p>
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>Bachelor Degree in Aerospace (Mechanical) Engineering</strong><br>Zagazig University, Egypt (2019-2024)</p>
+            <p><strong>CGPA:</strong> 3.46/4 (B+ or High Very Good)</p>
+            <p>Selected to represent Zagazig University in a scholarship for outstanding students at York University, Canada.</p>
+            <p><strong>Graduation Project:</strong> Aircraft Design using Reverse Engineering (Grade: A+)</p>
+        </div>
 
-        <h2>Licenses & Certifications</h2>
-        <ul>
-            <li>Basic Indoctrination Undergraduate Aeronautical/Mechanical Engineers - EgyptAir (2023)</li>
-            <!-- Add the other certifications similarly -->
-        </ul>
+        <div class="section">
+            <h2>Licenses & Certifications</h2>
+            <ul>
+                <li>Basic Indoctrination Undergraduate Aeronautical/Mechanical Engineers (Phase I) - EgyptAir Training Academy (July 2023 - September 2023)</li>
+                <li>Basic Indoctrination Undergraduate Aeronautical/Mechanical Engineers (Phase II) - EgyptAir Training Academy (July 2024 - August 2024)</li>
+                <li>Registered for Practical Training Necessary to obtain the License Without Type Rating (LWTR)</li>
+            </ul>
+        </div>
 
-        <h2>Training</h2>
-        <ul>
-            <li>Robot Arm Camp - ROBOTECH EG Company (2021)</li>
-            <!-- Add more trainings as listed -->
-        </ul>
+        <div class="section">
+            <h2>Training</h2>
+            <ul>
+                <li>Robot Arm Camp - ROBOTECH EG Company (July 2021)</li>
+                <li>Aircraft Factory Training - Arab Organization for Industrialization, Helwan, Egypt (September 2021)</li>
+                <li>Engine Factory Training - Arab Organization for Industrialization, Helwan, Egypt (September 2021)</li>
+                <li>Space Engineering Workshop - York University, Canada (July 2022 - August 2022)</li>
+                <li>Airframe and Engine Maintenance Training - Egypt Air (February 2023)</li>
+            </ul>
+        </div>
 
-        <h2>Languages</h2>
-        <p>Arabic: Native<br>English: Reading (★★★★☆), Writing (★★★★☆), Listening (★★★☆☆), Speaking (★★★☆☆)</p>
+        <div class="section skills">
+            <div>
+                <h2>Software Skills</h2>
+                <ul>
+                    <li>SOLIDWORKS</li>
+                    <li>ANSYS</li>
+                    <li>Microsoft Office: Word, Excel, PowerPoint</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Soft Skills</h2>
+                <ul>
+                    <li>Teamwork</li>
+                    <li>Time Management</li>
+                </ul>
+            </div>
+        </div>
 
-        <h2>Software Skills</h2>
-        <ul>
-            <li>SOLIDWORKS</li>
-            <li>ANSYS</li>
-            <li>Microsoft Office: Word, Excel, PowerPoint</li>
-        </ul>
+        <div class="section languages">
+            <div>
+                <h2>Languages</h2>
+                <p><strong>Arabic:</strong> Native</p>
+                <p><strong>English:</strong></p>
+                <ul>
+                    <li>Reading: ★★★★☆</li>
+                    <li>Writing: ★★★★☆</li>
+                    <li>Listening: ★★★☆☆</li>
+                    <li>Speaking: ★★★☆☆</li>
+                </ul>
+            </div>
+        </div>
 
-        <h2>Soft Skills</h2>
-        <p>Teamwork, Time Management</p>
-
-        <h2>Competitions</h2>
-        <p><strong>AeroX Team Member</strong>: UDC (Cairo University)</p>
+        <div class="section">
+            <h2>Competitions</h2>
+            <p><strong>AeroX Team Member:</strong> UDC (Cairo University)</p>
+            <p>The competition involved designing an UAV for delivering medical supplies. I contributed by designing the aircraft wing and testing stability and control using XFLR5. Additionally, I designed the door mechanism for releasing the medical supplies using SolidWorks.</p>
+        </div>
     </div>
 </body>
 </html>
